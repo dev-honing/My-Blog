@@ -6,7 +6,7 @@ module.exports = {
   entry: './client/src/index.js',  // 번들링을 시작할 파일
   output: {
     filename: 'bundle.js',         // 번들링 결과물의 파일명
-    path: path.resolve(__dirname, 'client/src/dist'),  // 번들링 결과물의 경로
+    path: path.resolve(__dirname, 'client/dist'),  // 번들링 결과물의 경로
   },
   module: {
     rules: [
@@ -27,7 +27,7 @@ module.exports = {
     extensions: ['.js'], // .js 확장자를 자동으로 처리하도록 세팅
   },
   devServer: {
-    static: path.resolve(__dirname, 'client/src/dist'),
+    static: path.resolve(__dirname, 'client/dist'),
     compress: true, // 압축: O
     port: 3000, // 포트 번호: 3000
     open: true, // 서버가 시작되면 브라우저가 자동으로 열리게 세팅
