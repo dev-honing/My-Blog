@@ -22,5 +22,11 @@ module.exports = {
         use: ['style-loader', 'css-loader'], // style-loader, css-loader를 사용하여 CSS 파일을 번들링
       },
     ],
+  },  
+  devServer: {
+    static: path.resolve(__dirname, 'client/src/dist'),
+    compress: true, // 압축: O
+    port: 3000, // 포트 번호: 3000
+    open: true, // 서버가 시작되면 브라우저가 자동으로 열리게 세팅
   },
 };

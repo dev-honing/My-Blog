@@ -78,6 +78,9 @@ My-Blog/
 `npm install @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli webpack-dev-server --save-dev
 `
 
+#### Webpack Dev Server 설치
+`npm install webpack-dev-server --save-dev`
+
 ### Frontend:
 
 ### Backend:
