@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "webpack --mode development --watch"
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "express": "^4.18.2"
