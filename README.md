@@ -50,6 +50,7 @@ My-Blog/
 |       |   |-- Blog.js
 |       |-- App.js
 |       |-- index.js
+|       |-- dist/   // webpack 빌드 결과물 저장
 |-- server/
 |   |-- models/
 |   |   |-- // MongoDB 모델 파일들
