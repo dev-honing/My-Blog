@@ -67,6 +67,17 @@ My-Blog/
 
 ## 패키지: 프로젝트에 사용할 주요 패키지들
 
+### 의존성 패키지
+#### Express 설치
+`npm install express`
+
+#### React, ReactDOM 설치
+`npm install react react-dom`
+
+#### Babel과 Webpack 설치
+`npm install @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli webpack-dev-server --save-dev
+`
+
 ### Frontend:
 
 ### Backend:
