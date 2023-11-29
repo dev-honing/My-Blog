@@ -1,0 +1,9 @@
+// .babelrc
+// Babel이 JavaScript 코드를 어떻게 변환할지에 대한 설정 파일
+
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+}
