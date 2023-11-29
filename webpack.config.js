@@ -23,6 +23,9 @@ module.exports = {
       },
     ],
   },  
+  resolve: {
+    extensions: ['.js'], // .js 확장자를 자동으로 처리하도록 세팅
+  },
   devServer: {
     static: path.resolve(__dirname, 'client/src/dist'),
     compress: true, // 압축: O
